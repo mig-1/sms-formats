@@ -1,0 +1,7 @@
+\+(\d[\d\s.,]*)\s+(\S+).*?Na rachunku\s+\d+\.\.(\d{4}).*?Data waluty:\s*(\d{4}-\d{2}-\d{2})
+
+-----COLUMNS-----
+income;instrument;syncid;date#yMd
+
+-----EXAMPLE-----
++1400,00 PLN Wpłata gotówki we wpłatomacie Na rachunku 16..7069 Data waluty: 2026-05-19 ║ Uznanie rachunku
