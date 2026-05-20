@@ -1,7 +1,7 @@
-Sayin\s+[^,]+,\s+(\d{4})\s+ile biten\s+\w+\s+kartinizla\s+(\d{2}\.\d{2}\.\d{4})\s*,?\s*([^\s,]+(?:\s+[^\s,]+)*)\s+is yerinden\s+(\d[\d\s.,]*)\s*([A-Z]+)\s+islem yapilmistir
+Blokada na rachunku Konto:\d*(\d{4})\s+Kwota:(\d[\d\s.,]*)\s*([A-Z]+)\s+Data:(\d{4}-\d{2}-\d{2})\s+[\d:]+\s+Saldo dostepne:(\d[\d\s.,]*)\s*([A-Z]+)
 
 -----COLUMNS-----
-syncid;date#dMy;payee;outcome;instrument
+syncid;outcome;instrument;date#YMD;av_balance;acc_instrument
 
 -----EXAMPLE-----
-Sayin PAVEL NIKONOV, 2475 ile biten TLCard kartinizla 13.05.2026 saat 07:31'de,EKOMINI MARKET is yerinden 105,00 TL islem yapilmistir. Islem size ait degilse bankamizla iletisime gecebilirsiniz. B016
+Blokada na rachunku Konto:455634080000 Kwota:119,00PLN Data:2026-05-19 18:47 Saldo dostepne:554,63PLN
