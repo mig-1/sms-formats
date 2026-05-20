@@ -1,4 +1,4 @@
-Purchase:\s*([A-Za-z]{1,4})([\d\s.,]+?)\s+Card:\s*\*+(\d{4})\s+(.+?)\s+(?:You will get:|Balance:).+(\d{2}\.\d{2}\.\d{4})\s*$
+Purchase:\s*([A-Za-z]{1,4})\s*([\d\s.,]+?)\s+Card:\s*\*+(\d{4})\s+(.+?)(?:\s+(?:You will get:|Balance:|Remaining balance:).+)?\s+(\d{2}\.\d{2}\.\d{4})\s*$
 
 -----COLUMNS-----
 instrument;outcome;syncid;payee;av_balance;date#dMy
