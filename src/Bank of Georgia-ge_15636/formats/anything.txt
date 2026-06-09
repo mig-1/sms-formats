@@ -1,0 +1,10 @@
+Outgoing transaction:\s*([A-Za-z]{1,4})\s*([0-9][\d\s.,]*\d)\s+(?:\w*\*+(\d+)\w*|(\S.*?))\s+(\d{2}[-.\/]\d{2}[-.\/]\d{2,4})
+
+-----COLUMNS-----
+instrument;outcome;syncid;acc_instrument;date#dMy
+
+-----EXAMPLE-----
+Outgoing transaction: GEL220.00 Plus Account 09.06.2026
+
+-----EXAMPLE-----
+Outgoing transaction: USD2.05 GE09***1517USD 09.06.2026
